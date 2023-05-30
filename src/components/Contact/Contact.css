@@ -1,26 +1,27 @@
 .bghome{
-    background-image: url('../../assets/backpga.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)),url('../../assets/bg1.jpg');
     height: 100vh;
     display: flex;
     flex-direction:column;
     flex-wrap: wrap;
     justify-content: center;
+    background-size:cover;
 }
 
 .con_head{
     font-size: larger;
     font-weight: 500;
     color: aliceblue;
-    margin-top: 5rem;
+    margin-top: 4rem;
 }
 .con_container{
     width: 35rem;
     height: 15rem;
-    background-color:rgb(107, 129, 129);
+    background-color:rgb(133, 150, 150);
     opacity: 60%;
     align-items: center;
     border-radius: 1rem;
-    margin-top: 10rem;
+ 
     margin-left: 25rem;
     display: flex;
     position: relative;

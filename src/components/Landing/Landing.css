@@ -6,7 +6,9 @@
     align-items: center;
     height: 100vh;
     width: 100%;
-    background-image: url('../../assets/backpga.jpg');
+ 
+  background-size:cover;
+    background-image: url('../../assets/bg1.jpg');
   }
   
  
@@ -30,33 +32,10 @@
     text-align:right;
     margin-right:7rem ;
     margin-top: 7rem;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
-  .gg-arrow-long-right {
-    box-sizing: border-box;
-    position: relative;
-    display: block;
-    transform: scale(var(--ggs,1));
-    border-top: 2px solid transparent;
-    border-bottom: 2px solid transparent;
-    box-shadow: inset 0 0 0 2px;
-    width: 24px;
-    height: 6px
-}
-.gg-arrow-long-right::after {
-    content: "";
-    display: block;
-    box-sizing: border-box;
-    position: absolute;
-    width: 6px;
-    height: 6px;
-    
-    border-top: 2px solid;
-    border-right: 2px solid;
-    transform: rotate(45deg);
-    right: 0;
-    bottom: -2px
-}
+
   .custom-button {
     position: relative;
     margin-top: 40px;
@@ -118,7 +97,7 @@
   }
   .left_bg{
     
-    background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)),url(../../assets/bg.png) ;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5));
     background-repeat: no-repeat;
     background-size: 50% 100%;
     height: 100%;

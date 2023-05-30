@@ -10,7 +10,7 @@
     list-style-type: none;
     margin: 0;
     padding:1rem;
-    background-color:linear-gradient(to bottom, #000000,rgb(52, 10, 92) ) ;
+    background-color:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)),rgb(4, 119, 212);
 
   }
   
