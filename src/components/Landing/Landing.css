@@ -1,0 +1,129 @@
+.home-page {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url('../../assets/backpga.jpg');
+  }
+  
+ 
+  .heading{
+    text-align: left;
+    font-weight: bolder;
+    color: white;
+    
+    font-size: medium;
+   
+  }
+  
+  .button-container {
+    text-align: center;
+    
+   
+  }
+  
+  .heading {
+    font-size: 24px;
+    text-align:right;
+    margin-right:7rem ;
+    margin-top: 7rem;
+  }
+  
+  .gg-arrow-long-right {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    box-shadow: inset 0 0 0 2px;
+    width: 24px;
+    height: 6px
+}
+.gg-arrow-long-right::after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    
+    border-top: 2px solid;
+    border-right: 2px solid;
+    transform: rotate(45deg);
+    right: 0;
+    bottom: -2px
+}
+  .custom-button {
+    position: relative;
+    margin-top: 40px;
+    padding: 20px 70px;
+   
+    background-color: #ca07c0;
+    color: #f8f0f0;
+    font-weight: bold;
+    border:#f8f0f0;
+    justify-content: center;
+    border-radius: 10px;
+    align-items:end;
+    margin-left: 60rem;
+    text-align: left;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+  }
+.line{
+  text-align: left;
+    color: white;
+    margin-left: 55rem;
+    font-style: italic;
+    font-size:medium;
+}
+
+  .custom-button:hover {
+    background-color: #d10c7f;
+    border: 2px solid white;
+    
+  }  
+  
+  .button-container {
+    text-align: center;
+    
+  }
+  
+  
+  
+  .arrow {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    transition: transform 0.3s;
+  }
+  
+  .arrow.right {
+    transform: translateY(-50%) rotate(45deg);
+  }
+  
+  .arrow.left {
+    transform: translateY(-50%) rotate(-135deg);
+  }
+  .left_bg{
+    
+    background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)),url(../../assets/bg.png) ;
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+    height: 100%;
+    width:100%;
+
+    
+
+  }

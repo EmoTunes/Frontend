@@ -1,0 +1,44 @@
+.navbar {
+    background-color:rgb(52, 10, 92) ;
+    width:100%;
+   
+  }
+  
+  .nav-list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding:1rem;
+    background-color:linear-gradient(to bottom, #000000,rgb(52, 10, 92) ) ;
+
+  }
+  
+  .nav-item {
+    cursor: pointer;
+    margin-right: 20px;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  .nav-item:hover {
+    color: rgb(216, 10, 130);
+    text-decoration-line: underline;
+  }
+  
+  .active {
+    font-weight: bold;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .nav-list {
+      flex-direction: column;
+    }
+  
+    .nav-item {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+  

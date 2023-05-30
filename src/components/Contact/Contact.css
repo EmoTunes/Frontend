@@ -1,0 +1,48 @@
+.bghome{
+    background-image: url('../../assets/backpga.jpg');
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.con_head{
+    font-size: larger;
+    font-weight: 500;
+    color: aliceblue;
+    margin-top: 5rem;
+}
+.con_container{
+    width: 35rem;
+    height: 15rem;
+    background-color:rgb(107, 129, 129);
+    opacity: 60%;
+    align-items: center;
+    border-radius: 1rem;
+    margin-top: 10rem;
+    margin-left: 25rem;
+    display: flex;
+    position: relative;
+}
+.vertical_line {
+    position: absolute;
+    left: 50%;
+    height: 90%;
+    margin-bottom: 1.5rem;
+    text-align:left;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f8ecec;
+    margin-top: 1.5rem;
+    border-left: 4px solid #e0d4d4; /* Adjust the color and thickness as needed */
+}  
+
+.img_container{
+    position: relative;
+    margin-right: 20px;
+}
+.imgg{
+    margin-left: 3rem;
+    width: 200px;
+    height: 200px;
+}

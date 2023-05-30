@@ -1,0 +1,110 @@
+.home_b{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image:url('../../assets/backpga.jpg')
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: #ccc;
+  animation-name: box-animation;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes box-animation {
+  0% {
+    transform: scale(1);
+    background-color: #ccc;
+  }
+  50% {
+    transform: scale(1.2);
+    background-color: #ff0000;
+  }
+  100% {
+    transform: scale(1);
+    background-color: #ccc;
+  }
+}
+
+
+
+
+
+
+
+
+.curved-boxa {
+    width: 250px;
+    height: 500px;
+    margin: 5px;
+    border-radius: 20% / 10%;
+    border-spacing: 1rem;
+    color: #f0e8e8;
+    background-color: #f39932;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    animation-timing-function: ease-out;
+  }
+ .imga{
+    height: 200px;
+    width: 250px;
+ }
+ .imgc{
+  height: 250px;
+  width: 250px;
+}
+  .curved-boxb {
+    width: 250px;
+    height: 500px;
+    margin: 5px;
+    color: #f0e8e8;
+    border-radius: 20% / 10%;
+    border-spacing: 1rem;
+    margin-left: 15rem;
+    background-color: #f01bbb;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+  }
+  .curved-boxb:hover{
+    width: 300px;
+    height: 600px;
+    animation: ease-in-out;
+    border: #f0e8e8;
+  }
+  .curved-boxa:hover{
+    width: 300px;
+    height: 600px;
+    animation: ease-in-out;
+    border: #f0e8e8;
+  }
+  .curved-boxc:hover{
+    width: 300px;
+    height: 600px;
+    animation: ease-in-out;
+    border: #f0e8e8;
+  }
+
+  .curved-boxc {
+    width: 250px;
+    height: 500px;
+    color: #f0e8e8;
+    margin: 5px;
+    border-radius: 20% / 10%;
+    border-spacing: 1rem;
+    margin-left: 15rem;
+    background-color: #950bcc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .flex_cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:transparent;
+  }
