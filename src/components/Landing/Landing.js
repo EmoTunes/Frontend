@@ -1,7 +1,7 @@
 import React ,{useState}from 'react'
 import './Landing.css'
 import MainLayout from '../../components/MainLayout/MainLayout'
-
+import Navbar from '../Navbar/Navbar';
 function Landing() {
     const [arrowDirection, setArrowDirection] = useState('right');
 
@@ -12,11 +12,11 @@ function Landing() {
   return (
     <div>
       
-  <MainLayout>
+  
  
     <div>
       <div className="home-page">
-     
+  <Navbar/>
       <div className='left_bg'>
         <div className='heading'><h1>Get awesome features<br></br>from Emoplayer!!</h1></div>
         <br></br>
@@ -32,9 +32,9 @@ function Landing() {
     
     </div>
     </div>
-    </MainLayout>
 
-    </div>
+
+ </div>
   )
 }
 
