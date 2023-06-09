@@ -35,6 +35,7 @@ background-size:cover;
     height: 90%;
     margin-bottom: 1.5rem;
     text-align:left;
+    word-spacing: 30px                ;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #f8ecec;
     margin-top: 1.5rem;
@@ -49,4 +50,5 @@ background-size:cover;
     margin-left: 3rem;
     width: 200px;
     height: 200px;
+    image-resolution:initial ;
 }

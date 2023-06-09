@@ -52,7 +52,8 @@ background-size:cover;
     color: #f0e8e8;
     background-color: #14100b;
     
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+    box-shadow: 0 0 10px rgba(53, 44, 44, 0.103);
     text-align: center;
     animation-timing-function: ease-out;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;

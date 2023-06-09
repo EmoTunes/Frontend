@@ -10,7 +10,7 @@ function Contact() {
       <div className='con_container'>
         <div className='img_container'>
       <img className='imgg' src={contacth}/></div>
-        <div className='vertical_line'><h3> <br></br> <br></br> Brad<br></br> brad1234@gmail.com<br></br> +191-XXX0000045</h3></div>
+        <div className='vertical_line'><h3> <br></br> <br></br>Brad<br></br> brad1234@gmail.com<br></br> +191-XXX0000045</h3></div>
         
       </div>
       </div>

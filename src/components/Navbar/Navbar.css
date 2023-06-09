@@ -17,18 +17,19 @@
   .nav-item {
     cursor: pointer;
     margin-right: 20px;
-    color: white;
+    color: white !important;
     font-size: 18px;
     transition: color 0.3s;
   }
   
   .nav-item:hover {
-    color: rgb(25, 145, 214);
+    color: rgb(80, 175, 230) !important;
     text-decoration-line: underline;
   }
   
   .active {
     font-weight: bold;
+    color: rgb(80, 175, 230);
   }
   
   @media screen and (max-width: 768px) {
